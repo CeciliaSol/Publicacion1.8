@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: mediumvioletred;
+}
+
+body { 
+    text-align: center ;
+	font: 150% Times New Roman, sans-serif; 
+	line-height: 1.5; 
+	color: darkslategray;
+    margin: 0; 
+	padding: 40;
+    background: white url("images/background.gif") center center no-repeat;
+}
+
+
+li {
+   list-style-type: square;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:8px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:deepskyblue;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:skyblue; 
+    border:2px;
+    cursor:pointer;
+    font-size:16px;
+    line-height: 1.4;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
